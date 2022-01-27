@@ -14,7 +14,7 @@ servo
 ## Program a Continuous Servo @unplugged
 This tutorial will show you how to program a continuous servo to move in a circle.
 
-![Continuous Servo Moving]()
+![Continuous Servo Moving](https://raw.githubusercontent.com/tyler-epl/servo-tutorials/master/images/continuous-servo.gif)
 
 
 ## Add a continuous servo block
