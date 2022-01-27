@@ -40,9 +40,7 @@ We can change the speed of the servo by changing the ``||servos:run at %||``
 
 ```blocks
 forever(function () {
-    servos.A1.setAngle(0)
-    // @highlight
-    servos.A1.setAngle(180)
+    servos.A1.run(100)
 })
 ```
 
@@ -53,10 +51,7 @@ You can also change the direction your servo spins. You just need to change the 
 
 ```blocks
 forever(function () {
-    servos.A1.setAngle(0)
-    // @highlight
-    pause(1000)
-    servos.A1.setAngle(180)
+    servos.A1.run(-100)
 })```
 
 
