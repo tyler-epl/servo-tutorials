@@ -27,10 +27,10 @@ pin A2 if you want to add a second servo.
 
 ```blocks
 forever(function () {
-    servos.A1.setAngle(90)
+    servos.A1.run(50)
 })
 ```
-![Block Gif](https://raw.githubusercontent.com/tyler-epl/positional-servo-tutorial/master/docs/static/pos-servo-step-one-v3.gif)
+![Servo Run Block]()
 
 
 ## Change the speed
