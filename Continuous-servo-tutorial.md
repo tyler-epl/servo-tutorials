@@ -30,7 +30,7 @@ forever(function () {
     servos.A1.run(50)
 })
 ```
-![Servo Run Block]()
+![Servo Run Block](https://raw.githubusercontent.com/tyler-epl/servo-tutorials/master/images/continuous-servo-block.gif)
 
 
 ## Change the speed
