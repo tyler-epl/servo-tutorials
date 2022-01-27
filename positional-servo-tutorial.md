@@ -30,7 +30,7 @@ forever(function () {
     servos.A1.setAngle(90)
 })
 ```
-![Block Gif](https://raw.githubusercontent.com/tyler-epl/positional-servo-tutorial/master/docs/static/pos-servo-step-one-v3.gif)
+![Block Gif](https://raw.githubusercontent.com/tyler-epl/servo-tutorials/master/images/pos-servo-step-one-v3.gif)
 
 ## Change the angle value
 We are going to program a servo to swing back and forth. To do this, we need to tell it to move to two different positions. 
