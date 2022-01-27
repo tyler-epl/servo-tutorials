@@ -14,7 +14,7 @@ servo
 ## Program a Positional Servo @unplugged
 This tutorial will show you how to program a positional servo to move back and forth.
 
-![Positional Servo Moving]()
+![Positional Servo Moving](https://raw.githubusercontent.com/tyler-epl/servo-tutorials/master/images/pos-servo.gif)
 
 
 ## Add a positional servo block
