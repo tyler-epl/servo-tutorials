@@ -34,9 +34,9 @@ forever(function () {
 
 
 ## Change the speed
-We can change the speed of the servo by changing the ``||servos:run at %||``
+We can change the speed of the servo by changing the ``||servos:run at %||`` value.
 </br><i class="window minimize outline icon"></i></br>
-<i class="circle icon"></i>Increase or decrease the speed of your servo. 100% is the maximum speed. 0% will shut off your servo.
+<i class="circle icon"></i>Increase or decrease the speed of your servo. 100% is the maximum speed. 0% will stop the servo moving.
 
 ```blocks
 forever(function () {
@@ -47,7 +47,8 @@ forever(function () {
 ## Change the direction
 You can also change the direction your servo spins. You just need to change the ``||servos:run at %||`` to a negative number.
 </br><i class="window minimize outline icon"></i></br>
-<i class="circle icon"></i>Slide the ``||servos:run at %||`` to a negative number. Feel free to use whatever works best for your project.
+<i class="circle icon"></i>Use the ``||servos:run at %||`` slider to change the value to a negative number. Feel free to use 
+positive or negative number. Pick whatever works best for your project.
 
 ```blocks
 forever(function () {
