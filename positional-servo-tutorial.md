@@ -1,10 +1,10 @@
 # Positional Servo Tutorial
 ```ghost
 forever(function () {
-    servos.A1.setAngle(0)
+    servos.A2.setAngle(0)
     pause(1000)
-    servos.A1.stop()
-    servos.A1.run(50)
+    servos.A2.stop()
+    servos.A2.run(50)
 })
 
 ```
@@ -22,12 +22,12 @@ We will use code to give the positional servo different commands through the Cir
 can move from 0 - 180 degrees. We can tell the servo to go any postion along this movement arc by telling it to go to an exact angle.
 </br><i class="window minimize outline icon"></i></br>
 <i class="circle icon"></i>Drag a positional ``||servos:set servo A1 angle to||`` block and place it inside your forever loop.</br>
-<i class="circle icon"></i>A1 is the name of the pin on the Circuit Playground that we will use to control the servo. You can also use 
-pin A2 if you want to add a second servo.
+<i class="circle icon"></i>A1 is the default value. Change this value to ``||servos:set servo A2 angle to||``. A2 is the name of the pin on the Circuit Playground that we will use to control the servo. You can also use 
+pin A1 if you want to add a rotational servo.
 
 ```blocks
 forever(function () {
-    servos.A1.setAngle(90)
+    servos.A2.setAngle(90)
 })
 ```
 ![Block Gif](https://raw.githubusercontent.com/tyler-epl/servo-tutorials/master/images/pos-servo-step-one-v3.gif)
@@ -40,21 +40,21 @@ Let set the first position.
 
 ```blocks
 forever(function () {
-    servos.A1.setAngle(0)
+    servos.A2.setAngle(0)
 })
 ```
 
 ## Add another positional servo block
 We need a second block to tell the servo to move to the opposite side.
 </br><i class="window minimize outline icon"></i></br>
-<i class="circle icon"></i>Add a second ``||servos:set servo A1 angle to||`` block under the first one.</br>
+<i class="circle icon"></i>Add a second ``||servos:set servo A2 angle to||`` block under the first one.</br>
 <i class="circle icon"></i>Let's set the value of this ``||servos:angle||`` to 180 degrees.
 
 ```blocks
 forever(function () {
-    servos.A1.setAngle(0)
+    servos.A2.setAngle(0)
     // @highlight
-    servos.A1.setAngle(180)
+    servos.A2.setAngle(180)
 })
 ```
 
@@ -67,16 +67,16 @@ and a second ``||loops:pause||`` after the second ``||servos:servo||`` block (``
 </br><i class="circle icon"></i>Change both ``||loops:pause||`` blocks to 1 second which is 1000 ms (ms = milliseconds).
 ```blocks
 forever(function () {
-    servos.A1.setAngle(0)
+    servos.A2.setAngle(0)
     // @highlight
     pause(1000)
-    servos.A1.setAngle(180)
+    servos.A2.setAngle(180)
 })```
 ```blocks
 forever(function () {
-    servos.A1.setAngle(0)
+    servos.A2.setAngle(0)
     pause(1000)
-    servos.A1.setAngle(180)
+    servos.A2.setAngle(180)
     // @highlight
     pause(1000)
 })```
