@@ -11,7 +11,8 @@
         "main.ts",
         "README.md",
         "positional-servo-tutorial.md",
-        "Continuous-servo-tutorial.md"
+        "Continuous-servo-tutorial.md",
+        "POSITIONAL-SERVO-TUTORIAL-V2.md"
     ],
     "testFiles": [
         "test.ts"
