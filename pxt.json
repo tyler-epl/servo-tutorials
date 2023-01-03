@@ -7,8 +7,6 @@
         "servo": "*"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
         "README.md",
         "positional-servo-tutorial.md",
         "Continuous-servo-tutorial.md",
