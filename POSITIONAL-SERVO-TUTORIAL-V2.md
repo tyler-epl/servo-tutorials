@@ -1,10 +1,9 @@
 # POSITIONAL-SERVO-TUTORIAL-V2
 ```ghost
 forever(function () {
-    servos.A2.setAngle(0)
+    servos.A1.setAngle(0)
     pause(1000)
-    servos.A2.stop()
-    servos.A2.run(50)
+    servos.A1.stop()
 })
 
 ```
@@ -27,7 +26,7 @@ pin A1 if you want to add a rotational servo.
 
 ```blocks
 forever(function () {
-    servos.A2.setAngle(90)
+    servos.A1.setAngle(90)
 })
 ```
 ![Block Gif](https://raw.githubusercontent.com/tyler-epl/servo-tutorials/master/images/pos-servo-step-one-v3.gif)
@@ -40,7 +39,7 @@ Let set the first position.
 
 ```blocks
 forever(function () {
-    servos.A2.setAngle(0)
+    servos.A1.setAngle(0)
 })
 ```
 
@@ -52,9 +51,9 @@ We need a second block to tell the servo to move to the opposite side.
 
 ```blocks
 forever(function () {
-    servos.A2.setAngle(0)
+    servos.A1.setAngle(0)
     // @highlight
-    servos.A2.setAngle(180)
+    servos.A1.setAngle(180)
 })
 ```
 
@@ -67,16 +66,16 @@ and a second ``||loops:pause||`` after the second ``||servos:servo||`` block (``
 </br><i class="circle icon"></i>Change both ``||loops:pause||`` blocks to 1 second which is 1000 ms (ms = milliseconds).
 ```blocks
 forever(function () {
-    servos.A2.setAngle(0)
+    servos.A1.setAngle(0)
     // @highlight
     pause(1000)
-    servos.A2.setAngle(180)
+    servos.A1.setAngle(180)
 })```
 ```blocks
 forever(function () {
-    servos.A2.setAngle(0)
+    servos.A1.setAngle(0)
     pause(1000)
-    servos.A2.setAngle(180)
+    servos.A1.setAngle(180)
     // @highlight
     pause(1000)
 })```
